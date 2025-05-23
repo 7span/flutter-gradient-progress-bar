@@ -18,14 +18,21 @@ class ColorfulCircularProgressIndicator extends StatefulWidget {
 
   /// Creates a [ColorfulCircularProgressIndicator].
   const ColorfulCircularProgressIndicator(
-      {super.key, this.strokeWidth = 5.0, required this.colors, this.indicatorHeight = 40.0, this.indicatorWidth = 40.0});
+      {super.key,
+      this.strokeWidth = 5.0,
+      required this.colors,
+      this.indicatorHeight = 40.0,
+      this.indicatorWidth = 40.0});
 
   @override
-  ColorfulCircularProgressIndicatorState createState() => ColorfulCircularProgressIndicatorState();
+  ColorfulCircularProgressIndicatorState createState() =>
+      ColorfulCircularProgressIndicatorState();
 }
 
 /// A widget that displays a colorful circular progress indicator.
-class ColorfulCircularProgressIndicatorState extends State<ColorfulCircularProgressIndicator> with TickerProviderStateMixin {
+class ColorfulCircularProgressIndicatorState
+    extends State<ColorfulCircularProgressIndicator>
+    with TickerProviderStateMixin {
   /// animation controller for first animation.
   late AnimationController firstAnimationController;
 
@@ -122,38 +129,39 @@ class ColorfulCircularProgressIndicatorState extends State<ColorfulCircularProgr
       vsync: this,
       duration: const Duration(milliseconds: 800),
     );
-    firstAnimation = Tween<double>(begin: -pi, end: pi).animate(firstAnimationController)
-      ..addListener(() {
-        setState(() {
-          doColorChanges();
-        });
-      })
-      ..addStatusListener((status) {
-        if (status == AnimationStatus.completed) {
-          firstAnimationController.repeat();
-        } else if (status == AnimationStatus.dismissed) {
-          firstAnimationController.forward();
-        }
-      });
+    firstAnimation =
+        Tween<double>(begin: -pi, end: pi).animate(firstAnimationController)
+          ..addListener(() {
+            setState(() {
+              doColorChanges();
+            });
+          })
+          ..addStatusListener((status) {
+            if (status == AnimationStatus.completed) {
+              firstAnimationController.repeat();
+            } else if (status == AnimationStatus.dismissed) {
+              firstAnimationController.forward();
+            }
+          });
 
     secondAnimationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 1300),
     );
-    secondAnimation =
-        Tween<double>(begin: -1, end: -6).animate(CurvedAnimation(parent: secondAnimationController, curve: Curves.easeInOut))
-          ..addListener(() {
-            setState(() {
-              /*doColorChanges();*/
-            });
-          })
-          ..addStatusListener((status) {
-            if (status == AnimationStatus.completed) {
-              secondAnimationController.reverse();
-            } else if (status == AnimationStatus.dismissed) {
-              secondAnimationController.forward();
-            }
-          });
+    secondAnimation = Tween<double>(begin: -1, end: -6).animate(CurvedAnimation(
+        parent: secondAnimationController, curve: Curves.easeInOut))
+      ..addListener(() {
+        setState(() {
+          /*doColorChanges();*/
+        });
+      })
+      ..addStatusListener((status) {
+        if (status == AnimationStatus.completed) {
+          secondAnimationController.reverse();
+        } else if (status == AnimationStatus.dismissed) {
+          secondAnimationController.forward();
+        }
+      });
   }
 }
 

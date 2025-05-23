@@ -16,7 +16,8 @@ class GradientProgressIndicator extends StatefulWidget {
   const GradientProgressIndicator(this.colors, this.value, {super.key});
 
   @override
-  GradientProgressIndicatorState createState() => GradientProgressIndicatorState();
+  GradientProgressIndicatorState createState() =>
+      GradientProgressIndicatorState();
 }
 
 /// A widget that displays a customizable gradient progress bar.
@@ -86,7 +87,8 @@ class _GradientProgressInternal extends StatelessWidget {
         width: double.infinity,
         height: _kLinearProgressIndicatorHeight,
       ),
-      decoration: BoxDecoration(gradient: LinearGradient(colors: colorsToApply)),
+      decoration:
+          BoxDecoration(gradient: LinearGradient(colors: colorsToApply)),
     );
   }
 }
