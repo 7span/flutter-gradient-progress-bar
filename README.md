@@ -14,20 +14,10 @@ A comprehensive Flutter package for both Android and iOS that provides beautiful
 
 ## Screenshots
 
-### Progress Indicator
-![Screen_Recording_20250523-120831](https://github.com/user-attachments/assets/eb2edcc3-fb65-44fb-834d-150d32a14fa1)
-
-## Installation
-
-Add the dependency to your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  colorful_circular_progress_indicator: ^0.0.2
-  gradient_progress_bar: ^latest_version
-```
+| Component | Demo |
+|-----------|------|
+| **Gradient Indicator** | <img src="https://github.com/user-attachments/assets/4759dd4d-425c-4738-bf6d-67423f0849d0" width="200"> |
+| **Circuler Indicator** | <img src="https://github.com/user-attachments/assets/13384a27-b716-4114-bfa3-35fd2d0f0dd7" width="200"> |
 
 ## Usage
 
