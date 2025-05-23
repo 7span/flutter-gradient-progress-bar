@@ -15,7 +15,7 @@ A comprehensive Flutter package for both Android and iOS that provides beautiful
 ## Screenshots
 
 ### Progress Indicator
-![demo](demo.mp4)
+![Screen_Recording_20250523-120831](https://github.com/user-attachments/assets/eb2edcc3-fb65-44fb-834d-150d32a14fa1)
 
 ## Installation
 
