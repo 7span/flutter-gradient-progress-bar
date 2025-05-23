@@ -3,7 +3,7 @@ description: This package allows you to Customise your progress indicator as Gra
 homepage: https://github.com/urvashik-7span/gradient_progress_bar
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-version: 1.0.5
+version: 1.0.6
 
 
 environment:
