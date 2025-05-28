@@ -1,4 +1,4 @@
-# Flutter Progress Indicators Package
+# Flutter Progress Indicators
 
 ![Pub Version](https://img.shields.io/badge/pub-v0.0.2-blue) ![Flutter Version](https://img.shields.io/badge/flutter-v3.3.1-blue) ![Dart Version](https://img.shields.io/badge/dart-v2.18.0-blue)
 
