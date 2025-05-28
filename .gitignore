@@ -38,10 +38,8 @@ doc/api/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#.vscode/
 
 # Flutter/Dart/Pub related
 # Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
@@ -51,3 +49,6 @@ doc/api/
 .packages
 build/
 >>>>>>> 9099b81a90501f82cbbebb080d8757ee7e00fe17
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
