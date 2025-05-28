@@ -1,4 +1,8 @@
-## 1.0.5
+## 1.0.7
+
+* Repository refactoring
+
+## 1.0.6
 
 * Dart formating
 

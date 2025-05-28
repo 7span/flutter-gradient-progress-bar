@@ -174,14 +174,14 @@ For more detailed examples, check out:
 ## Issues & Support
 
 Having issues? File them here:
-- [Issues](https://github.com/urvashi-k-7span/gradient_progress_bar/issues)
+- [Issues](https://github.com/7span/flutter-gradient-progress-bar/issues)
 
 ## Contributing
 
 **🤘🏻 Great!** We welcome contributions to both packages.
 
 ### For Progress Bar:
-1. Fork the [Repository](https://github.com/urvashi-k-7span/gradient_progress_bar)
+1. Fork the [Repository](https://github.com/7span/flutter-gradient-progress-bar)
 2. Update Code
 3. Write a meaningful Commit Message
 4. Send a PR

@@ -1,9 +1,9 @@
 name: gradient_progress_bar
 description: This package allows you to Customise your progress indicator as Gradient progress indicator
-homepage: https://github.com/urvashik-7span/gradient_progress_bar
+homepage: https://github.com/7span/flutter-gradient-progress-bar
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-version: 1.0.6
+version: 1.0.7
 
 
 environment:
